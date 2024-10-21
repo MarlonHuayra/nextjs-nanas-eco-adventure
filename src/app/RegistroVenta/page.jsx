@@ -1,0 +1,13 @@
+
+function RegistroVenta() {
+    return (
+      <div className="text-center p-10">
+        <h1 className="text-2xl font-bold my-4 ">Estamos en registro  gil xd
+          Ivan</h1>
+        <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla autem similique, praesentium laudantium cupiditate quas ut, nihil aspernatur rerum dignissimos, quasi quae. Id ab autem necessitatibus molestiae deleniti odit voluptatum in magni magnam? Aperiam sequi iure quos magnam quisquam quis et ipsum odit ipsa ea alias sit quam quia nam, at doloremque natus itaque veritatis! Iste possimus rerum saepe ducimus, reprehenderit, illum debitis expedita at animi eveniet obcaecati tenetur minus. Quaerat, qui, cupiditate repellat praesentium assumenda autem earum in accusantium, iure at alias iusto voluptatum facilis laboriosam nam eaque. Facere, necessitatibus nulla. Adipisci ipsam quis velit iure vero dolores mollitia hic provident commodi est, officiis aperiam voluptas, dicta veritatis a nostrum dolorem minus natus, nam id odio iusto cupiditate. Similique sint ad amet reiciendis expedita illo ipsam corrupti impedit. Autem quod explicabo ipsa dolorem inventore optio a, magni perferendis impedit neque nihil vitae! Animi cum quae fuga facere saepe? Nostrum ipsam ex, quibusdam reiciendis culpa nulla natus autem consectetur quam dignissimos odit laboriosam ipsum perferendis voluptates. Maxime reiciendis eaque laborum deleniti odio dolor, quae numquam nostrum rerum obcaecati tenetur ipsum! Voluptate, iure. A facere ea possimus? Ratione alias dolor nobis quaerat voluptas harum culpa pariatur fugit, tempora magnam odio eius neque saepe voluptates similique aliquam quas placeat, numquam dolores mollitia optio sequi eum sapiente! Nobis reiciendis quae at cumque libero quo odio cupiditate quidem numquam sequi magni debitis vel quisquam vero porro laborum deleniti, quod odit. Libero, neque? Placeat dignissimos tempore animi impedit voluptates unde! Officiis mollitia qui illum est dolorem sapiente optio! Soluta eligendi magni quos, quia ipsam inventore aspernatur culpa mollitia sapiente enim voluptate sint accusantium quas, esse, aut repudiandae odit. Deserunt sunt officiis eveniet tenetur porro neque quam necessitatibus rem nihil fuga! Repudiandae rem, necessitatibus pariatur sapiente architecto deserunt totam asperiores praesentium nemo vero, saepe quo accusamus.
+        </p>
+      </div>
+    )
+  }
+  
+  export default RegistroVenta
