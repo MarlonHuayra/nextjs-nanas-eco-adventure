@@ -2,10 +2,25 @@ import { NextResponse } from 'next/server';
 import { db } from '@/libs/mysql';
 import { processImage } from '@/libs/processImage';
 
-// Obtener la lista de pedidos
+// Obtener la lista de pedidos con detalles del producto
 export async function GET() {
   try {
-    const results = await db.query('SELECT * FROM orders');
+    const query = `
+      SELECT 
+        orders.id, 
+        orders.product_id, 
+        orders.quantity, 
+        orders.total_price, 
+        orders.customer_name, 
+        orders.customer_phone, 
+        orders.created_at, 
+        product.name AS product_name, 
+        product.price AS product_price 
+      FROM orders 
+      INNER JOIN product ON orders.product_id = product.id;
+    `;
+
+    const results = await db.query(query);
     return NextResponse.json(results);
   } catch (error) {
     return NextResponse.json(
@@ -14,6 +29,7 @@ export async function GET() {
     );
   }
 }
+
 
 // Agregar un nuevo pedido a la base de datos
 export async function POST(request) {

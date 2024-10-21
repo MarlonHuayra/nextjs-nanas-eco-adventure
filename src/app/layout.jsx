@@ -8,6 +8,7 @@ import CompaniesCarousel from '@components/Companies/CompaniesCarousel'
 import Navbar2 from '@components/navbar2'
 import Work from '@components/Work/Work'
 import Table from '@components/Table/Table'
+import Orders from '@components/Orders/Orders'
 
 /* import Navbar from './components/Navbar/Navbarin'; */
 import Benefits from '@components/benefits'
@@ -44,6 +45,7 @@ export default function RootLayout({ children }) {
 					<CompaniesCarousel/>
 					<Work/>
 					<Table/>
+					<Orders />
 					<Features/>
 					
 
