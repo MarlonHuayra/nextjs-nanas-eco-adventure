@@ -58,6 +58,10 @@ export default class CompaniesCarousel extends Component {
 
         return (
             <div className="text-center bg-lightpink">
+                <div className="text-xl text-center text-gray-700 dark:text-white">
+            Our tool <span className="text-indigo-600">game+</span>{" "}
+            Development
+          </div>
                 <div className="mx-auto max-w-2xl py-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <Slider {...settings}>
                         {data.map((item, index) => (
